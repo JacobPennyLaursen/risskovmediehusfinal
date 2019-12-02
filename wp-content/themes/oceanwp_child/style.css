@@ -6,3 +6,7 @@
  Template:     oceanwp
  Version:      0.1
 */
+h1,h2,h3,h4 {
+font-familiy: verdana;
+color:blue;
+}
