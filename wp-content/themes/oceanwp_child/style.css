@@ -6,10 +6,30 @@
  Template:     oceanwp
  Version:      0.1
 */
-h1,h2,h3,h4 {
-font-familiy: verdana;
-color:green;
-    text-transform:uppercase;
+
+.graastortekst {text-transform:uppercase;
+    font-size:4em;
+    font-family:montserrat;
+    color:#676767;
+    font-weight:700;
+    text-align:center;
+    line-height:1em;
 }
 
-body{margin:0; padding:0;}
+.groenstortekst {text-transform:uppercase;
+    font-size:6em;
+    font-family:montserrat;
+    color:#86b23f;
+    font-weight:900;
+    text-align:center;
+    line-height:1em;
+}
+
+.hvidstortekst {text-transform:uppercase;
+    font-size:4em;
+    font-family:montserrat;
+    color:#ffffff;
+    font-weight:700;
+    text-align:center;
+    line-height:1em;
+}
