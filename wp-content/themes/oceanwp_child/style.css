@@ -33,3 +33,22 @@
     text-align:center;
     line-height:1em;
 }
+
+#annoncermobil {
+    display: none;
+}/* Fjerner mobilversionen af annonceoversigten ved normalvisning - altså computervisning */
+
+@media only screen and (max-width: 600px) {
+  .graastortekst {font-size:2em;}
+    
+    .groenstortekst {font-size:3em;}
+
+    .hvidstortekst    {font-size:2em;}
+    
+
+#annoncercomputer {display: none;}  /* Fjerner computerversionen af annonceoversigten på enheder der er mindre end 600px */
+#annoncermobil {display:block;}  /* viser mobilversionen af annonceoversigten på enheder der er mindre end 600px */
+
+    
+}/* Her slutter ændringerner på mobil */
+    
